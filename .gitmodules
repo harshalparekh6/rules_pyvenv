@@ -1,0 +1,3 @@
+[submodule "rules_pycross"]
+	path = rules_pycross
+	url = https://github.com/harshalparekh6/rules_pycross
