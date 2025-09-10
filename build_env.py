@@ -136,8 +136,7 @@ def get_files(build_env_input: Dict) -> List[EnvFile]:
 
         for path in paths:
             env_file = get_env_path(workspace, path, imports)
-            if env_file.env_path != path or always_link:
-                files.append(env_file)
+            files.append(env_file)
 
     return files
 
