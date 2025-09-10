@@ -136,6 +136,7 @@ def get_files(build_env_input: Dict) -> List[EnvFile]:
 
         for path in paths:
             env_file = get_env_path(workspace, path, imports)
+            print(path, env_path)
             files.append(env_file)
 
     return files
